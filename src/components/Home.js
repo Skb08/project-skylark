@@ -68,7 +68,7 @@ const HomeComponent = () => {
         <div className="studentActivityCenter">
           <Image width={1400} height={350} src="/images/home/Vector 9.png" className="ml-[65%] relative mb-[-15rem] md:hidden" alt="" />
           <h1 className={' text-white md:text-[50px] uppercase  font-thin mt-[7rem] text-[21px] mx-auto md:mb-[2rem] mb-[1rem] text-center ' + julius.className}>Student Activity Centre</h1>
-          <p className=' max-w-[1135px] text-white mx-auto  md:text-[25.20px] text-start '>The Student Activity Center(SAC) at NIT Rourkela plays a vital role in the promotion and development of various clubs, including the UDAAN Club. It serves as a platform that encourages students' extra-curricular talents and fosters their all-round personality development. The center provides ample opportunities for students to engage in a wide range of activities and events that align with their interests and goals. Through active participation in the UDAAN Club, students can hone their skills, enhance their leadership abilities, and collaborate with like-minded individuals. With the support and resources offered by the Student Activity Center, the Club can thrive and help students reach their goals, while fostering a vibrant and dynamic campus environment. For more details, reach out to website.nitrkl.ac.in/SAC/</p>
+          <p className=' max-w-[1135px] text-white mx-auto  md:text-[25.20px] text-start '>The Student Activity Center(SAC) at NIT Rourkela plays a vital role in the promotion and development of various clubs, including the UDAAN Club. It serves as a platform that encourages students&apos; extra-curricular talents and fosters their all-round personality development. The center provides ample opportunities for students to engage in a wide range of activities and events that align with their interests and goals. Through active participation in the UDAAN Club, students can hone their skills, enhance their leadership abilities, and collaborate with like-minded individuals. With the support and resources offered by the Student Activity Center, the Club can thrive and help students reach their goals, while fostering a vibrant and dynamic campus environment. For more details, reach out to website.nitrkl.ac.in/SAC/</p>
         </div>
         <div className='container flex justify-center md:mb-[4rem] mt-[4rem] mb-[2rem] '><h1 className={'uppercase max-w-[1135px] md:text-[45px] text-white text-[21px]  ' + julius.className}>contact us</h1></div>
         <div className="contactUs">
@@ -99,19 +99,6 @@ const HomeComponent = () => {
 
 
           <div className=" flex flex-wrap text-white justify-center md:mt-0 mt-[3rem] gap-x-[2rem] gap-y-[2rem] mx-auto w-full max-w-[1135px ] pb-8">
-            {/* <div className='flex mx-auto'> <div><p className='md:text-[26.50px]'>President:</p>
-        <div className="logo w-[23px] mx-auto h-[23px] mt-[0.5rem] flex items-center "><Image width={16} height={16} src="/images/home/phone.svg" alt="" />
-        <div><p className='md:text-[26.50px]'>6371873931</p></div></div></div>
-       </div>
-        <div className='flex mx-auto md:justify-start '><div><p className=' md:text-[26.50px] '>Vice-president:</p></div>
-        <div className="logo w-[23px] mx-auto  h-[23px] mt-[0.5rem] flex items-center"><Image width={16} height={16} src="/images/home/phone.svg" alt="" />
-        <div><p className='md:text-[26.50px]'>8018436185</p></div></div> </div>
-
-        <div><p className='text-white md:text-[26.50px]'>PR Head:</p></div>
-        <div className="logo w-[23px] ml-[2rem] h-[23px] mt-[0.5rem] "><Image width={16} height={16} src="/images/home/phone.svg" alt="" /></div>
-        
-        <div><p className='text-white md:text-[26.50px] text-center'>70775 03389</p></div>
-         */}
 
             <div className='flex gap-[20px] min-w-1/2 sm:w-1/3 justify-center'>
               <span>President</span>
