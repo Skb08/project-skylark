@@ -1,6 +1,6 @@
 export const sponsorshipMembers = [
     {
-        pic:"/images/sponsorship/Aalok Kumar Sah.jpg",
+        pic:"/images/sponsorship/Aalok Kumar Sah.jpg" ,
         name:"Aalok Kumar Sah",
         post : "Member",
         year:"3rd year, Electronics and communication Engg."
