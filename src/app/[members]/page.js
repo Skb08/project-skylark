@@ -31,10 +31,12 @@ const page = (props) => {
       </div>
       <div className="p-8 shadow-md flex items-center justify-center">
         <Image
+        width={400}
+        height={400}
           src={props.params.members == "sponsorship-team"
           ? "/images/sponsorship/Dibyarchana.jpg"
-          : "/images/design/Uday Nayak.jpg" } alt="head of team"
-          className="w-20 h-20 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 object-cover mr-4 object-top"
+          : "/images/design/Uday Nayak.jpg" } 
+          className="w-20 h-20 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 object-cover mr-4 object-top"alt="head of team"
         />
         <div
           className="w-[200px] text-xs md:text-sm lg:text-base xl:text-lg leading-none"
@@ -56,7 +58,10 @@ const page = (props) => {
            <div id="first" className="justify-center grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 last:col-span-[1.5]">
               {members.map((member) => (
                 <div className="p-4 flex items-center justify-center">
-                <Image src={member.pic} className=" pl-4 w-20 h-20 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 object-cover mr-4 object-top" alt="team members"/>
+                <Image 
+                width={400}
+                height={400}
+                src={member.pic} className=" pl-4 w-20 h-20 md:w-20 md:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28 object-cover mr-4 object-top" alt="team members"/>
                 <div  className="w-[200px] text-xs md:text-sm lg:text-base xl:text-lg leading-none" >
                 <p>{member.name}</p>
                 <p>{member.post}</p>
