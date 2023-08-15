@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { designMembers, sponsorshipMembers } from "@/config/members";
-
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 const page = (props) => {
