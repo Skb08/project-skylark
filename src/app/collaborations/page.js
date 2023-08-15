@@ -75,7 +75,7 @@ const page = () => {
                 <p className="text-white">
                   Udaan has officially announced Webwiz as its official
                   collaboration partner. With this partnership, Webwiz is
-                  entrusted with the crucial task of developing Udaan's official
+                  entrusted with the crucial task of developing Udaan&apos;s official
                   website. Their expertise and experience will be instrumental
                   in creating a professional, user-friendly, and visually
                   appealing online platform for Udaan.
@@ -87,13 +87,13 @@ const page = () => {
               In addition to website development, Webwiz will also provide
               technical support, ensuring the smooth functioning of the website.
               They will be responsible for handling regular updates, ensuring
-              that Udaan's website remains current and engaging for its users.
+              that Udaan&apos;s website remains current and engaging for its users.
               Udaan is eager to forge a mutually beneficial relationship with
               Webwiz in the days ahead. Both parties are committed to leveraging
-              each other's strengths, fostering innovation, and achieving
-              success in their shared endeavors. With Webwiz's technical prowess
-              and Udaan's vision, this partnership holds immense potential to
-              elevate Udaan's online presence and create a seamless experience
+              each other&apos;s strengths, fostering innovation, and achieving
+              success in their shared endeavors. With Webwiz&apos;s technical prowess
+              and Udaan&apos;s vision, this partnership holds immense potential to
+              elevate Udaan&apos;s online presence and create a seamless experience
               for its users. Together, they are poised to make a significant
               impact in their respective fields and build a strong and fruitful
               collaboration.
